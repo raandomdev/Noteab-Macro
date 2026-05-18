@@ -13,6 +13,7 @@
 * Alternative fallback mode for anyone who got pure black/white screen -> now they can open the macro in browser using **Ctrl + Shift + F10**
 
 ## Changes:
+* Disabled potion crafting till further notice
 * Fixed biome config data desync
 * Macro_logs.txt refactored (it now logs almost everything in the macro's internal logic)
 * Configs & files relocated to %appdata% (you can open the appdata folder in the "Other Features" section)
