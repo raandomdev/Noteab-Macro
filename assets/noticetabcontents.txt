@@ -1,21 +1,27 @@
-# 2.1.7 (Whats new?)
+# Coteab Macro - v2.1.7 (MacOS Editon!)
 
-## Note: This macOS porting is expect to be with bugs, pleace report any bugs to @spacedev0572 and report your problem. note that not all features its expected to work, since there are a lot of limitations to work with. Please also note that this macOS porting will be released at its own time. This means that every Coteab windows update will not be released at the same time. Thanks for your understanding!
+Porting done by <@1397822076651311174>.  Be thankful to him!
 
-## Features:
-* macOS Porting by spacedev0572!
-* Eden pathing + auto contract **(EXPERIMENTAL - EDEN PATH MIGHT FAIL IF YOU GOT LAGSPIKE A LOT)** **(NEW)**
-* Only allow one Coteab instance running (opening another Coteab will show you a warning popup)
-* Attempt fix at autopop bug **(hopefully... this is the 3rd time I'm fixing this :sob:)**
-* New remote access control commands **(start, stop, status, equip aura, close_roblox_and_stop_macro)**
-* Individual Discord ping (userid/roleid) for each biome **(Non-rare biomes CANNOT be assigned @everyone/@here obviously...)**
-* "Status" page added -> Allows you to see which macro actions are currently enabled/idle/off
-* Alternative fallback mode for anyone who got pure black/white screen -> now they can open the macro in browser using **Ctrl + Shift + F10**
+## What's new?
+
+macOS porting is now finished and now updated to version v2.1.7. The other updates will be included. Just not right now.
 
 ## Changes:
-* Disabled potion crafting till further notice
-* Fixed biome config data desync
-* Macro_logs.txt refactored (it now logs almost everything in the macro's internal logic)
-* Configs & files relocated to %appdata% (you can open the appdata folder in the "Other Features" section)
+> -# great features has been disabled due to pathing issues in macOS. This has happened in version 2.0.3 also, for the same thing.
 
-**^^ REMEMBER TO IMPORT YOUR CONFIG FROM YOUR OLD COTEAB IN CASE YOU LOSE ALL YOUR MACRO SETTINGS SINCE ALL MACRO FILES ARE NOW STORED IN APPDATA ^^**
+> - Potion Crafting, Obby, Eden, and Limbo Pathing have been disabled
+> - Aura recording works, but not guaranteed.
+> - Egg collecting has been removed on version 2.1.7 since it didn't work at all/event has ended
+> - RAC on the macro wont be the same as intended
+
+Fishing and merchants are expected to work.
+
+# Note the macOS users...
+
+**This macro will not always be updated to the lasted version of coteab when the Windows comes out first. With that being said, updates for macOS version will be delayed to a week or more. Don't expect thing right away. Also please don't annoy/harrass<@1397822076651311174> about the pathing, he knows that it was hard even on him to even disable theses core features in the first place.**
+
+**The macro wont be the same like Windows version Coteab. Expect certain features to be either broken, or not work in the same way it used to.**
+
+Download: {download page/github}
+
+## To Intel users, please follow this exact guide on [How to install coteab](https://youtu.be/AcdfAbaegYE?si=eBOMaUe_PQyXl_tf)
