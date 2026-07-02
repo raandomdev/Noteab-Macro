@@ -1,244 +1,2780 @@
 {
-    "presets": [
-        {
-            "resolution": "1920x1080",
-            "scale": "100%",
-            "calibrations": {
-                "collections_button": [33, 454],
-                "exit_collections_button": [383, 129],
-                "chat_hover_pos": [211, 258],
-                "chat_tab_ocr_pos": [82, 71, 101, 24],
-                "chat_close_button": [138, 34],
-                "chat_box_ocr_pos": [8, 111, 472, 261],
-                "quest_menu": [37, 615],
-                "quest1_button": [1235, 600],
-                "quest2_button": [1251, 606],
-                "quest3_button": [1255, 659],
-                "claim_quest_button": [1420, 296],
-                "quest_reroll_button": [621, 589],
-                "merchant_open_button": [667, 907],
-                "merchant_dialogue_box": [800, 817],
-                "purchase_amount_button": [1111, 598],
-                "purchase_button": [1139, 646],
-                "first_item_merchant_slot_pos": [907, 716],
-                "merchant_close_button": [1812, 336],
-                "merchant_name_ocr_pos": [741, 664, 352, 49],
-                "item_name_ocr_pos": [1105, 361, 641, 31],
-                "glitched_menu_button": [41, 674],
-                "glitched_settings_button": [950, 590],
-                "glitched_buff_enable_button": [932, 660],
-                "aura_menu": [32, 399],
-                "aura_search_bar": [1236, 369],
-                "first_aura_slot_pos": [814, 429],
-                "equip_aura_button": [638, 637],
-                "inventory_menu": [31, 514],
-                "items_tab": [1257, 335],
-                "search_bar": [1257, 368],
-                "first_item_inventory_slot_pos": [835, 457],
-                "amount_box": [589, 580],
-                "use_button": [667, 575],
-                "inventory_close_button": [1414, 299],
-                "reconnect_start_button": [141, 1004],
-                "first_item_slot_ocr_pos": [806, 430, 87, 90],
-                "potion_items_tab": [1511, 224],
-                "potion_search_bar": [1768, 265],
-                "potion_first_potion_slot_pos": [1638, 348],
-                "potion_recipe_button": [259, 819],
-                "potion_auto_add_button": [434, 819],
-                "fishing_bar_region": [754, 758, 414, 29],
-                "fishing_detect_pixel": [1176, 838],
-                "fishing_click_position": [845, 835],
-                "fishing_midbar_sample_pos": [951, 765],
-                "fishing_close_button_pos": [1112, 342],
-                "fishing_flarg_dialogue_box": [913, 820],
-                "fishing_shop_open_button": [634, 944],
-                "fishing_shop_sell_tab": [1281, 306],
-                "fishing_shop_close_button": [1459, 266],
-                "fishing_shop_first_fish": [842, 421],
-                "fishing_shop_sell_all_button": [662, 806],
-                "fishing_confirm_sell_all_button": [803, 617]
-            },
-            "mode": "Fullscreen"
-        },
-        {
-            "resolution": "1920x1080",
-            "scale": "100%",
-            "calibrations": {
-                "collections_button": [35, 441],
-                "exit_collections_button": [381, 148],
-                "chat_hover_pos": [225, 273],
-                "chat_tab_ocr_pos": [76, 88, 98, 28],
-                "chat_close_button": [140, 59],
-                "chat_box_ocr_pos": [1, 136, 478, 244],
-                "quest_menu": [35, 598],
-                "quest1_button": [1240, 513],
-                "quest2_button": [894, 612],
-                "quest3_button": [1305, 646],
-                "claim_quest_button": [616, 763],
-                "quest_reroll_button": [613, 572],
-                "merchant_open_button": [667, 907],
-                "merchant_dialogue_box": [800, 817],
-                "purchase_amount_button": [1111, 598],
-                "purchase_button": [1139, 646],
-                "first_item_merchant_slot_pos": [907, 716],
-                "merchant_close_button": [1812, 336],
-                "merchant_name_ocr_pos": [741, 664, 352, 49],
-                "item_name_ocr_pos": [1105, 361, 641, 31],
-                "glitched_menu_button": [28, 662],
-                "glitched_settings_button": [954, 578],
-                "glitched_buff_enable_button": [936, 634],
-                "aura_menu": [31, 391],
-                "aura_search_bar": [1224, 353],
-                "first_aura_slot_pos": [818, 425],
-                "equip_aura_button": [626, 624],
-                "inventory_menu": [37, 501],
-                "items_tab": [1283, 330],
-                "search_bar": [1311, 356],
-                "first_item_inventory_slot_pos": [835, 457],
-                "amount_box": [596, 563],
-                "use_button": [684, 570],
-                "inventory_close_button": [1412, 289],
-                "reconnect_start_button": [124, 964],
-                "first_item_slot_ocr_pos": [806, 422, 91, 90],
-                "potion_items_tab": [1583, 230],
-                "potion_search_bar": [1745, 268],
-                "potion_first_potion_slot_pos": [1641, 346],
-                "potion_recipe_button": [208, 791],
-                "potion_auto_add_button": [410, 788],
-                "fishing_bar_region": [756, 727, 410, 27],
-                "fishing_detect_pixel": [1175, 802],
-                "fishing_click_position": [845, 800],
-                "fishing_midbar_sample_pos": [948, 734],
-                "fishing_close_button_pos": [1108, 334],
-                "fishing_flarg_dialogue_box": [937, 780],
-                "fishing_shop_open_button": [683, 905],
-                "fishing_shop_sell_tab": [1270, 314],
-                "fishing_shop_close_button": [1461, 272],
-                "fishing_shop_first_fish": [830, 415],
-                "fishing_shop_sell_all_button": [651, 772],
-                "fishing_confirm_sell_all_button": [714, 612]
-            },
-            "mode": "Windowed"
-        },
-        {
-            "resolution": "1920x1080",
-            "scale": "125%",
-            "calibrations": {
-                "collections_button": [44,445],
-                "exit_collections_button": [387, 165],
-                "chat_hover_pos": [265,264],
-                "chat_tab_ocr_pos": [92,112,133,41],
-                "chat_close_button": [170,70],
-                "chat_box_ocr_pos": [15,161,521,249],
-                "quest_menu": [35,607],
-                "quest1_button": [1042,511],
-                "quest2_button": [1062,596],
-                "quest3_button": [1138,659],
-                "claim_quest_button": [618,751],
-                "quest_reroll_button": [615,534],
-                "merchant_open_button": [629,895],
-                "merchant_dialogue_box": [1114,796],
-                "purchase_amount_button": [1101,594],
-                "purchase_button": [1172,637],
-                "first_item_merchant_slot_pos": [954,696],
-                "merchant_close_button": [1807,329],
-                "merchant_name_ocr_pos": [749,650,179,60],
-                "item_name_ocr_pos": [1095,348,389,46],
-                "glitched_menu_button": [35,662],
-                "glitched_settings_button": [958,561],
-                "glitched_buff_enable_button": [932,634],
-                "aura_menu": [38,386],
-                "aura_search_bar": [825,351],
-                "first_aura_slot_pos": [820,425],
-                "equip_aura_button": [623,619],
-                "inventory_menu": [39,495],
-                "items_tab": [1268,321],
-                "search_bar": [867,353],
-                "first_item_inventory_slot_pos": [842,463],
-                "amount_box": [595,565],
-                "use_button": [681,561],
-                "inventory_close_button": [1413,283],
-                "reconnect_start_button": [274,948],
-                "first_item_slot_ocr_pos": [799,410,95,98],
-                "potion_items_tab": [1542,233],
-                "potion_search_bar": [1519,275],
-                "potion_first_potion_slot_pos": [1656,346],
-                "potion_recipe_button": [181,783],
-                "potion_auto_add_button": [406,784],
-                "fishing_bar_region": [731,700,459,37],
-                "fishing_detect_pixel": [1201,793],
-                "fishing_click_position": [794,790],
-                "fishing_midbar_sample_pos": [949,712],
-                "fishing_close_button_pos": [1126,304],
-                "fishing_flarg_dialogue_box": [1181,752],
-                "fishing_shop_open_button": [666,898],
-                "fishing_shop_sell_tab": [1306,315],
-                "fishing_shop_close_button": [1462,273],
-                "fishing_shop_first_fish": [824,406],
-                "fishing_shop_sell_all_button": [671,766],
-                "fishing_confirm_sell_all_button": [785,610]
-            },
-            "mode": "Windowed"
-        },
-        {
-            "resolution": "1920x1080",
-            "scale": "125%",
-            "calibrations": {
-                "collections_button": [37,458],
-                "exit_collections_button": [382, 140],
-                "chat_hover_pos": [275,266],
-                "chat_tab_ocr_pos": [62,80,207,44],
-                "chat_close_button": [179,40],
-                "chat_box_ocr_pos": [7,135,591,263],
-                "quest_menu": [38,618],
-                "quest1_button": [1086,528],
-                "quest2_button": [1097,601],
-                "quest3_button": [1100,675],
-                "claim_quest_button": [632,769],
-                "quest_reroll_button": [626,540],
-                "merchant_open_button": [594,944],
-                "merchant_dialogue_box": [1086,819],
-                "purchase_amount_button": [1113,609],
-                "purchase_button": [1099,659],
-                "first_item_merchant_slot_pos": [954,719],
-                "merchant_close_button": [1810,343],
-                "merchant_name_ocr_pos": [728,682,289,57],
-                "item_name_ocr_pos": [1099,366,362,41],
-                "glitched_menu_button": [37,674],
-                "glitched_settings_button": [957,587],
-                "glitched_buff_enable_button": [930,655],
-                "aura_menu": [35,404],
-                "aura_search_bar": [850,365],
-                "first_aura_slot_pos": [817,437],
-                "equip_aura_button": [629,634],
-                "inventory_menu": [35,513],
-                "items_tab": [1271,332],
-                "search_bar": [893,366],
-                "first_item_inventory_slot_pos": [846,478],
-                "amount_box": [593,578],
-                "use_button": [685,578],
-                "inventory_close_button": [1413,295],
-                "reconnect_start_button": [257,1001],
-                "first_item_slot_ocr_pos": [793,424,107,103],
-                "potion_items_tab": [1507,223],
-                "potion_search_bar": [1471,265],
-                "potion_first_potion_slot_pos": [1607,350],
-                "potion_recipe_button": [207,824],
-                "potion_auto_add_button": [431,818],
-                "fishing_bar_region": [721,740,472,42],
-                "fishing_detect_pixel": [1201,834],
-                "fishing_click_position": [836, 834],
-                "fishing_midbar_sample_pos": [958,756],
-                "fishing_close_button_pos": [1131,313],
-                "fishing_flarg_dialogue_box": [1044,818],
-                "fishing_shop_open_button": [655,944],
-                "fishing_shop_sell_tab": [1298,311],
-                "fishing_shop_close_button": [1460,266],
-                "fishing_shop_first_fish": [827,401],
-                "fishing_shop_sell_all_button": [664,806],
-                "fishing_confirm_sell_all_button": [802,630]
-            },
-            "mode": "Fullscreen"
-        }
-    ]
+  "presets": [
+    {
+      "mac": "13.6in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Fullscreen",
+      "calibrations": {
+        "collections_button": [
+          25,
+          402
+        ],
+        "exit_collections_button": [
+          293,
+          114
+        ],
+        "chat_hover_pos": [
+          162,
+          228
+        ],
+        "chat_tab_ocr_pos": [
+          63,
+          63,
+          77,
+          21
+        ],
+        "chat_close_button": [
+          106,
+          30
+        ],
+        "chat_box_ocr_pos": [
+          6,
+          98,
+          361,
+          231
+        ],
+        "quest_menu": [
+          28,
+          544
+        ],
+        "quest1_button": [
+          946,
+          531
+        ],
+        "quest2_button": [
+          958,
+          536
+        ],
+        "quest3_button": [
+          961,
+          583
+        ],
+        "claim_quest_button": [
+          1087,
+          262
+        ],
+        "quest_reroll_button": [
+          475,
+          521
+        ],
+        "merchant_open_button": [
+          511,
+          803
+        ],
+        "merchant_dialogue_box": [
+          613,
+          723
+        ],
+        "purchase_amount_button": [
+          851,
+          529
+        ],
+        "purchase_button": [
+          872,
+          572
+        ],
+        "first_item_merchant_slot_pos": [
+          694,
+          634
+        ],
+        "merchant_close_button": [
+          1387,
+          297
+        ],
+        "merchant_name_ocr_pos": [
+          567,
+          588,
+          269,
+          43
+        ],
+        "item_name_ocr_pos": [
+          846,
+          320,
+          491,
+          27
+        ],
+        "glitched_menu_button": [
+          31,
+          597
+        ],
+        "glitched_settings_button": [
+          727,
+          522
+        ],
+        "glitched_buff_enable_button": [
+          714,
+          584
+        ],
+        "aura_menu": [
+          25,
+          353
+        ],
+        "aura_search_bar": [
+          946,
+          327
+        ],
+        "first_aura_slot_pos": [
+          623,
+          380
+        ],
+        "equip_aura_button": [
+          488,
+          564
+        ],
+        "inventory_menu": [
+          24,
+          455
+        ],
+        "items_tab": [
+          962,
+          297
+        ],
+        "search_bar": [
+          962,
+          326
+        ],
+        "first_item_inventory_slot_pos": [
+          639,
+          405
+        ],
+        "amount_box": [
+          451,
+          513
+        ],
+        "use_button": [
+          511,
+          509
+        ],
+        "inventory_close_button": [
+          1083,
+          265
+        ],
+        "reconnect_start_button": [
+          108,
+          889
+        ],
+        "first_item_slot_ocr_pos": [
+          617,
+          381,
+          67,
+          80
+        ],
+        "potion_items_tab": [
+          1157,
+          198
+        ],
+        "potion_search_bar": [
+          1354,
+          235
+        ],
+        "potion_first_potion_slot_pos": [
+          1254,
+          308
+        ],
+        "potion_recipe_button": [
+          198,
+          725
+        ],
+        "potion_auto_add_button": [
+          332,
+          725
+        ],
+        "fishing_bar_region": [
+          577,
+          671,
+          317,
+          26
+        ],
+        "fishing_detect_pixel": [
+          900,
+          742
+        ],
+        "fishing_click_position": [
+          647,
+          739
+        ],
+        "fishing_midbar_sample_pos": [
+          728,
+          677
+        ],
+        "fishing_close_button_pos": [
+          851,
+          303
+        ],
+        "fishing_flarg_dialogue_box": [
+          699,
+          726
+        ],
+        "fishing_shop_open_button": [
+          485,
+          836
+        ],
+        "fishing_shop_sell_tab": [
+          981,
+          271
+        ],
+        "fishing_shop_close_button": [
+          1117,
+          235
+        ],
+        "fishing_shop_first_fish": [
+          645,
+          373
+        ],
+        "fishing_shop_sell_all_button": [
+          507,
+          713
+        ],
+        "fishing_confirm_sell_all_button": [
+          615,
+          546
+        ]
+      }
+    },
+    {
+      "mac": "14in_MacBook_Pro",
+      "resolution": "1512x982",
+      "mode": "Fullscreen",
+      "calibrations": {
+        "collections_button": [
+          26,
+          413
+        ],
+        "exit_collections_button": [
+          302,
+          117
+        ],
+        "chat_hover_pos": [
+          166,
+          235
+        ],
+        "chat_tab_ocr_pos": [
+          65,
+          65,
+          80,
+          22
+        ],
+        "chat_close_button": [
+          109,
+          31
+        ],
+        "chat_box_ocr_pos": [
+          6,
+          101,
+          372,
+          237
+        ],
+        "quest_menu": [
+          29,
+          559
+        ],
+        "quest1_button": [
+          973,
+          546
+        ],
+        "quest2_button": [
+          985,
+          551
+        ],
+        "quest3_button": [
+          988,
+          599
+        ],
+        "claim_quest_button": [
+          1118,
+          269
+        ],
+        "quest_reroll_button": [
+          489,
+          536
+        ],
+        "merchant_open_button": [
+          525,
+          825
+        ],
+        "merchant_dialogue_box": [
+          630,
+          743
+        ],
+        "purchase_amount_button": [
+          875,
+          544
+        ],
+        "purchase_button": [
+          897,
+          587
+        ],
+        "first_item_merchant_slot_pos": [
+          714,
+          651
+        ],
+        "merchant_close_button": [
+          1427,
+          306
+        ],
+        "merchant_name_ocr_pos": [
+          584,
+          604,
+          277,
+          45
+        ],
+        "item_name_ocr_pos": [
+          870,
+          328,
+          505,
+          28
+        ],
+        "glitched_menu_button": [
+          32,
+          613
+        ],
+        "glitched_settings_button": [
+          748,
+          536
+        ],
+        "glitched_buff_enable_button": [
+          734,
+          600
+        ],
+        "aura_menu": [
+          25,
+          363
+        ],
+        "aura_search_bar": [
+          973,
+          336
+        ],
+        "first_aura_slot_pos": [
+          641,
+          390
+        ],
+        "equip_aura_button": [
+          502,
+          579
+        ],
+        "inventory_menu": [
+          24,
+          467
+        ],
+        "items_tab": [
+          990,
+          305
+        ],
+        "search_bar": [
+          990,
+          335
+        ],
+        "first_item_inventory_slot_pos": [
+          658,
+          416
+        ],
+        "amount_box": [
+          464,
+          527
+        ],
+        "use_button": [
+          525,
+          523
+        ],
+        "inventory_close_button": [
+          1114,
+          272
+        ],
+        "reconnect_start_button": [
+          111,
+          913
+        ],
+        "first_item_slot_ocr_pos": [
+          635,
+          391,
+          69,
+          82
+        ],
+        "potion_items_tab": [
+          1190,
+          204
+        ],
+        "potion_search_bar": [
+          1392,
+          241
+        ],
+        "potion_first_potion_slot_pos": [
+          1290,
+          316
+        ],
+        "potion_recipe_button": [
+          204,
+          745
+        ],
+        "potion_auto_add_button": [
+          342,
+          745
+        ],
+        "fishing_bar_region": [
+          594,
+          689,
+          326,
+          26
+        ],
+        "fishing_detect_pixel": [
+          926,
+          762
+        ],
+        "fishing_click_position": [
+          665,
+          759
+        ],
+        "fishing_midbar_sample_pos": [
+          749,
+          696
+        ],
+        "fishing_close_button_pos": [
+          876,
+          311
+        ],
+        "fishing_flarg_dialogue_box": [
+          719,
+          746
+        ],
+        "fishing_shop_open_button": [
+          499,
+          858
+        ],
+        "fishing_shop_sell_tab": [
+          1009,
+          278
+        ],
+        "fishing_shop_close_button": [
+          1149,
+          242
+        ],
+        "fishing_shop_first_fish": [
+          663,
+          383
+        ],
+        "fishing_shop_sell_all_button": [
+          521,
+          733
+        ],
+        "fishing_confirm_sell_all_button": [
+          632,
+          561
+        ]
+      }
+    },
+    {
+      "mac": "15in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Fullscreen",
+      "calibrations": {
+        "collections_button": [
+          25,
+          402
+        ],
+        "exit_collections_button": [
+          293,
+          114
+        ],
+        "chat_hover_pos": [
+          162,
+          228
+        ],
+        "chat_tab_ocr_pos": [
+          63,
+          63,
+          77,
+          21
+        ],
+        "chat_close_button": [
+          106,
+          30
+        ],
+        "chat_box_ocr_pos": [
+          6,
+          98,
+          361,
+          231
+        ],
+        "quest_menu": [
+          28,
+          544
+        ],
+        "quest1_button": [
+          946,
+          531
+        ],
+        "quest2_button": [
+          958,
+          536
+        ],
+        "quest3_button": [
+          961,
+          583
+        ],
+        "claim_quest_button": [
+          1087,
+          262
+        ],
+        "quest_reroll_button": [
+          475,
+          521
+        ],
+        "merchant_open_button": [
+          511,
+          803
+        ],
+        "merchant_dialogue_box": [
+          613,
+          723
+        ],
+        "purchase_amount_button": [
+          851,
+          529
+        ],
+        "purchase_button": [
+          872,
+          572
+        ],
+        "first_item_merchant_slot_pos": [
+          694,
+          634
+        ],
+        "merchant_close_button": [
+          1387,
+          297
+        ],
+        "merchant_name_ocr_pos": [
+          567,
+          588,
+          269,
+          43
+        ],
+        "item_name_ocr_pos": [
+          846,
+          320,
+          491,
+          27
+        ],
+        "glitched_menu_button": [
+          31,
+          597
+        ],
+        "glitched_settings_button": [
+          727,
+          522
+        ],
+        "glitched_buff_enable_button": [
+          714,
+          584
+        ],
+        "aura_menu": [
+          25,
+          353
+        ],
+        "aura_search_bar": [
+          946,
+          327
+        ],
+        "first_aura_slot_pos": [
+          623,
+          380
+        ],
+        "equip_aura_button": [
+          488,
+          564
+        ],
+        "inventory_menu": [
+          24,
+          455
+        ],
+        "items_tab": [
+          962,
+          297
+        ],
+        "search_bar": [
+          962,
+          326
+        ],
+        "first_item_inventory_slot_pos": [
+          639,
+          405
+        ],
+        "amount_box": [
+          451,
+          513
+        ],
+        "use_button": [
+          511,
+          509
+        ],
+        "inventory_close_button": [
+          1083,
+          265
+        ],
+        "reconnect_start_button": [
+          108,
+          889
+        ],
+        "first_item_slot_ocr_pos": [
+          617,
+          381,
+          67,
+          80
+        ],
+        "potion_items_tab": [
+          1157,
+          198
+        ],
+        "potion_search_bar": [
+          1354,
+          235
+        ],
+        "potion_first_potion_slot_pos": [
+          1254,
+          308
+        ],
+        "potion_recipe_button": [
+          198,
+          725
+        ],
+        "potion_auto_add_button": [
+          332,
+          725
+        ],
+        "fishing_bar_region": [
+          577,
+          671,
+          317,
+          26
+        ],
+        "fishing_detect_pixel": [
+          900,
+          742
+        ],
+        "fishing_click_position": [
+          647,
+          739
+        ],
+        "fishing_midbar_sample_pos": [
+          728,
+          677
+        ],
+        "fishing_close_button_pos": [
+          851,
+          303
+        ],
+        "fishing_flarg_dialogue_box": [
+          699,
+          726
+        ],
+        "fishing_shop_open_button": [
+          485,
+          836
+        ],
+        "fishing_shop_sell_tab": [
+          981,
+          271
+        ],
+        "fishing_shop_close_button": [
+          1117,
+          235
+        ],
+        "fishing_shop_first_fish": [
+          645,
+          373
+        ],
+        "fishing_shop_sell_all_button": [
+          507,
+          713
+        ],
+        "fishing_confirm_sell_all_button": [
+          615,
+          546
+        ]
+      }
+    },
+    {
+      "mac": "16in_MacBook_Pro",
+      "resolution": "1728x1117",
+      "mode": "Fullscreen",
+      "calibrations": {
+        "collections_button": [
+          30,
+          470
+        ],
+        "exit_collections_button": [
+          345,
+          133
+        ],
+        "chat_hover_pos": [
+          190,
+          267
+        ],
+        "chat_tab_ocr_pos": [
+          74,
+          73,
+          91,
+          25
+        ],
+        "chat_close_button": [
+          124,
+          35
+        ],
+        "chat_box_ocr_pos": [
+          7,
+          115,
+          425,
+          270
+        ],
+        "quest_menu": [
+          33,
+          636
+        ],
+        "quest1_button": [
+          1111,
+          621
+        ],
+        "quest2_button": [
+          1126,
+          627
+        ],
+        "quest3_button": [
+          1130,
+          682
+        ],
+        "claim_quest_button": [
+          1278,
+          306
+        ],
+        "quest_reroll_button": [
+          559,
+          609
+        ],
+        "merchant_open_button": [
+          600,
+          938
+        ],
+        "merchant_dialogue_box": [
+          720,
+          845
+        ],
+        "purchase_amount_button": [
+          1000,
+          618
+        ],
+        "purchase_button": [
+          1025,
+          668
+        ],
+        "first_item_merchant_slot_pos": [
+          816,
+          741
+        ],
+        "merchant_close_button": [
+          1631,
+          348
+        ],
+        "merchant_name_ocr_pos": [
+          667,
+          687,
+          317,
+          51
+        ],
+        "item_name_ocr_pos": [
+          995,
+          373,
+          577,
+          32
+        ],
+        "glitched_menu_button": [
+          37,
+          697
+        ],
+        "glitched_settings_button": [
+          855,
+          610
+        ],
+        "glitched_buff_enable_button": [
+          839,
+          683
+        ],
+        "aura_menu": [
+          29,
+          413
+        ],
+        "aura_search_bar": [
+          1112,
+          382
+        ],
+        "first_aura_slot_pos": [
+          733,
+          444
+        ],
+        "equip_aura_button": [
+          574,
+          659
+        ],
+        "inventory_menu": [
+          28,
+          532
+        ],
+        "items_tab": [
+          1131,
+          346
+        ],
+        "search_bar": [
+          1131,
+          381
+        ],
+        "first_item_inventory_slot_pos": [
+          752,
+          473
+        ],
+        "amount_box": [
+          530,
+          600
+        ],
+        "use_button": [
+          600,
+          595
+        ],
+        "inventory_close_button": [
+          1273,
+          309
+        ],
+        "reconnect_start_button": [
+          127,
+          1038
+        ],
+        "first_item_slot_ocr_pos": [
+          725,
+          445,
+          78,
+          93
+        ],
+        "potion_items_tab": [
+          1360,
+          232
+        ],
+        "potion_search_bar": [
+          1591,
+          274
+        ],
+        "potion_first_potion_slot_pos": [
+          1474,
+          360
+        ],
+        "potion_recipe_button": [
+          233,
+          847
+        ],
+        "potion_auto_add_button": [
+          391,
+          847
+        ],
+        "fishing_bar_region": [
+          679,
+          784,
+          373,
+          30
+        ],
+        "fishing_detect_pixel": [
+          1058,
+          867
+        ],
+        "fishing_click_position": [
+          760,
+          864
+        ],
+        "fishing_midbar_sample_pos": [
+          856,
+          791
+        ],
+        "fishing_close_button_pos": [
+          1001,
+          354
+        ],
+        "fishing_flarg_dialogue_box": [
+          822,
+          848
+        ],
+        "fishing_shop_open_button": [
+          571,
+          976
+        ],
+        "fishing_shop_sell_tab": [
+          1153,
+          316
+        ],
+        "fishing_shop_close_button": [
+          1313,
+          275
+        ],
+        "fishing_shop_first_fish": [
+          758,
+          435
+        ],
+        "fishing_shop_sell_all_button": [
+          596,
+          834
+        ],
+        "fishing_confirm_sell_all_button": [
+          723,
+          638
+        ]
+      }
+    },
+    {
+      "mac": "13.6in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          27,
+          390
+        ],
+        "exit_collections_button": [
+          292,
+          131
+        ],
+        "chat_hover_pos": [
+          172,
+          242
+        ],
+        "chat_tab_ocr_pos": [
+          58,
+          78,
+          75,
+          25
+        ],
+        "chat_close_button": [
+          107,
+          52
+        ],
+        "chat_box_ocr_pos": [
+          1,
+          120,
+          366,
+          216
+        ],
+        "quest_menu": [
+          27,
+          529
+        ],
+        "quest1_button": [
+          949,
+          454
+        ],
+        "quest2_button": [
+          684,
+          542
+        ],
+        "quest3_button": [
+          999,
+          572
+        ],
+        "claim_quest_button": [
+          472,
+          675
+        ],
+        "quest_reroll_button": [
+          469,
+          506
+        ],
+        "merchant_open_button": [
+          511,
+          803
+        ],
+        "merchant_dialogue_box": [
+          613,
+          723
+        ],
+        "purchase_amount_button": [
+          851,
+          529
+        ],
+        "purchase_button": [
+          872,
+          572
+        ],
+        "first_item_merchant_slot_pos": [
+          694,
+          634
+        ],
+        "merchant_close_button": [
+          1387,
+          297
+        ],
+        "merchant_name_ocr_pos": [
+          567,
+          588,
+          269,
+          43
+        ],
+        "item_name_ocr_pos": [
+          846,
+          320,
+          491,
+          27
+        ],
+        "glitched_menu_button": [
+          21,
+          586
+        ],
+        "glitched_settings_button": [
+          730,
+          512
+        ],
+        "glitched_buff_enable_button": [
+          717,
+          561
+        ],
+        "aura_menu": [
+          24,
+          346
+        ],
+        "aura_search_bar": [
+          937,
+          312
+        ],
+        "first_aura_slot_pos": [
+          626,
+          376
+        ],
+        "equip_aura_button": [
+          479,
+          552
+        ],
+        "inventory_menu": [
+          28,
+          443
+        ],
+        "items_tab": [
+          982,
+          292
+        ],
+        "search_bar": [
+          1004,
+          315
+        ],
+        "first_item_inventory_slot_pos": [
+          639,
+          405
+        ],
+        "amount_box": [
+          456,
+          498
+        ],
+        "use_button": [
+          524,
+          505
+        ],
+        "inventory_close_button": [
+          1081,
+          256
+        ],
+        "reconnect_start_button": [
+          95,
+          853
+        ],
+        "first_item_slot_ocr_pos": [
+          617,
+          374,
+          70,
+          80
+        ],
+        "potion_items_tab": [
+          1212,
+          204
+        ],
+        "potion_search_bar": [
+          1336,
+          237
+        ],
+        "potion_first_potion_slot_pos": [
+          1256,
+          306
+        ],
+        "potion_recipe_button": [
+          159,
+          700
+        ],
+        "potion_auto_add_button": [
+          314,
+          698
+        ],
+        "fishing_bar_region": [
+          579,
+          644,
+          314,
+          24
+        ],
+        "fishing_detect_pixel": [
+          900,
+          710
+        ],
+        "fishing_click_position": [
+          647,
+          708
+        ],
+        "fishing_midbar_sample_pos": [
+          726,
+          650
+        ],
+        "fishing_close_button_pos": [
+          848,
+          296
+        ],
+        "fishing_flarg_dialogue_box": [
+          717,
+          690
+        ],
+        "fishing_shop_open_button": [
+          523,
+          801
+        ],
+        "fishing_shop_sell_tab": [
+          972,
+          278
+        ],
+        "fishing_shop_close_button": [
+          1119,
+          241
+        ],
+        "fishing_shop_first_fish": [
+          635,
+          367
+        ],
+        "fishing_shop_sell_all_button": [
+          498,
+          683
+        ],
+        "fishing_confirm_sell_all_button": [
+          547,
+          542
+        ]
+      }
+    },
+    {
+      "mac": "14in_MacBook_Pro",
+      "resolution": "1512x982",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          28,
+          401
+        ],
+        "exit_collections_button": [
+          300,
+          135
+        ],
+        "chat_hover_pos": [
+          177,
+          248
+        ],
+        "chat_tab_ocr_pos": [
+          60,
+          80,
+          77,
+          25
+        ],
+        "chat_close_button": [
+          110,
+          54
+        ],
+        "chat_box_ocr_pos": [
+          1,
+          124,
+          376,
+          222
+        ],
+        "quest_menu": [
+          28,
+          544
+        ],
+        "quest1_button": [
+          976,
+          466
+        ],
+        "quest2_button": [
+          704,
+          556
+        ],
+        "quest3_button": [
+          1028,
+          587
+        ],
+        "claim_quest_button": [
+          485,
+          694
+        ],
+        "quest_reroll_button": [
+          483,
+          520
+        ],
+        "merchant_open_button": [
+          525,
+          825
+        ],
+        "merchant_dialogue_box": [
+          630,
+          743
+        ],
+        "purchase_amount_button": [
+          875,
+          544
+        ],
+        "purchase_button": [
+          897,
+          587
+        ],
+        "first_item_merchant_slot_pos": [
+          714,
+          651
+        ],
+        "merchant_close_button": [
+          1427,
+          306
+        ],
+        "merchant_name_ocr_pos": [
+          584,
+          604,
+          277,
+          45
+        ],
+        "item_name_ocr_pos": [
+          870,
+          328,
+          505,
+          28
+        ],
+        "glitched_menu_button": [
+          22,
+          602
+        ],
+        "glitched_settings_button": [
+          751,
+          526
+        ],
+        "glitched_buff_enable_button": [
+          737,
+          576
+        ],
+        "aura_menu": [
+          24,
+          356
+        ],
+        "aura_search_bar": [
+          964,
+          321
+        ],
+        "first_aura_slot_pos": [
+          644,
+          386
+        ],
+        "equip_aura_button": [
+          493,
+          567
+        ],
+        "inventory_menu": [
+          29,
+          456
+        ],
+        "items_tab": [
+          1010,
+          300
+        ],
+        "search_bar": [
+          1032,
+          324
+        ],
+        "first_item_inventory_slot_pos": [
+          658,
+          416
+        ],
+        "amount_box": [
+          469,
+          512
+        ],
+        "use_button": [
+          539,
+          518
+        ],
+        "inventory_close_button": [
+          1112,
+          263
+        ],
+        "reconnect_start_button": [
+          98,
+          877
+        ],
+        "first_item_slot_ocr_pos": [
+          635,
+          384,
+          72,
+          82
+        ],
+        "potion_items_tab": [
+          1247,
+          209
+        ],
+        "potion_search_bar": [
+          1374,
+          244
+        ],
+        "potion_first_potion_slot_pos": [
+          1292,
+          315
+        ],
+        "potion_recipe_button": [
+          164,
+          719
+        ],
+        "potion_auto_add_button": [
+          323,
+          716
+        ],
+        "fishing_bar_region": [
+          595,
+          661,
+          323,
+          25
+        ],
+        "fishing_detect_pixel": [
+          925,
+          729
+        ],
+        "fishing_click_position": [
+          665,
+          727
+        ],
+        "fishing_midbar_sample_pos": [
+          747,
+          667
+        ],
+        "fishing_close_button_pos": [
+          873,
+          304
+        ],
+        "fishing_flarg_dialogue_box": [
+          738,
+          709
+        ],
+        "fishing_shop_open_button": [
+          538,
+          823
+        ],
+        "fishing_shop_sell_tab": [
+          1000,
+          286
+        ],
+        "fishing_shop_close_button": [
+          1151,
+          247
+        ],
+        "fishing_shop_first_fish": [
+          654,
+          377
+        ],
+        "fishing_shop_sell_all_button": [
+          513,
+          702
+        ],
+        "fishing_confirm_sell_all_button": [
+          562,
+          556
+        ]
+      }
+    },
+    {
+      "mac": "15in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          27,
+          390
+        ],
+        "exit_collections_button": [
+          292,
+          131
+        ],
+        "chat_hover_pos": [
+          172,
+          242
+        ],
+        "chat_tab_ocr_pos": [
+          58,
+          78,
+          75,
+          25
+        ],
+        "chat_close_button": [
+          107,
+          52
+        ],
+        "chat_box_ocr_pos": [
+          1,
+          120,
+          366,
+          216
+        ],
+        "quest_menu": [
+          27,
+          529
+        ],
+        "quest1_button": [
+          949,
+          454
+        ],
+        "quest2_button": [
+          684,
+          542
+        ],
+        "quest3_button": [
+          999,
+          572
+        ],
+        "claim_quest_button": [
+          472,
+          675
+        ],
+        "quest_reroll_button": [
+          469,
+          506
+        ],
+        "merchant_open_button": [
+          511,
+          803
+        ],
+        "merchant_dialogue_box": [
+          613,
+          723
+        ],
+        "purchase_amount_button": [
+          851,
+          529
+        ],
+        "purchase_button": [
+          872,
+          572
+        ],
+        "first_item_merchant_slot_pos": [
+          694,
+          634
+        ],
+        "merchant_close_button": [
+          1387,
+          297
+        ],
+        "merchant_name_ocr_pos": [
+          567,
+          588,
+          269,
+          43
+        ],
+        "item_name_ocr_pos": [
+          846,
+          320,
+          491,
+          27
+        ],
+        "glitched_menu_button": [
+          21,
+          586
+        ],
+        "glitched_settings_button": [
+          730,
+          512
+        ],
+        "glitched_buff_enable_button": [
+          717,
+          561
+        ],
+        "aura_menu": [
+          24,
+          346
+        ],
+        "aura_search_bar": [
+          937,
+          312
+        ],
+        "first_aura_slot_pos": [
+          626,
+          376
+        ],
+        "equip_aura_button": [
+          479,
+          552
+        ],
+        "inventory_menu": [
+          28,
+          443
+        ],
+        "items_tab": [
+          982,
+          292
+        ],
+        "search_bar": [
+          1004,
+          315
+        ],
+        "first_item_inventory_slot_pos": [
+          639,
+          405
+        ],
+        "amount_box": [
+          456,
+          498
+        ],
+        "use_button": [
+          524,
+          505
+        ],
+        "inventory_close_button": [
+          1081,
+          256
+        ],
+        "reconnect_start_button": [
+          95,
+          853
+        ],
+        "first_item_slot_ocr_pos": [
+          617,
+          374,
+          70,
+          80
+        ],
+        "potion_items_tab": [
+          1212,
+          204
+        ],
+        "potion_search_bar": [
+          1336,
+          237
+        ],
+        "potion_first_potion_slot_pos": [
+          1256,
+          306
+        ],
+        "potion_recipe_button": [
+          159,
+          700
+        ],
+        "potion_auto_add_button": [
+          314,
+          698
+        ],
+        "fishing_bar_region": [
+          579,
+          644,
+          314,
+          24
+        ],
+        "fishing_detect_pixel": [
+          900,
+          710
+        ],
+        "fishing_click_position": [
+          647,
+          708
+        ],
+        "fishing_midbar_sample_pos": [
+          726,
+          650
+        ],
+        "fishing_close_button_pos": [
+          848,
+          296
+        ],
+        "fishing_flarg_dialogue_box": [
+          717,
+          690
+        ],
+        "fishing_shop_open_button": [
+          523,
+          801
+        ],
+        "fishing_shop_sell_tab": [
+          972,
+          278
+        ],
+        "fishing_shop_close_button": [
+          1119,
+          241
+        ],
+        "fishing_shop_first_fish": [
+          635,
+          367
+        ],
+        "fishing_shop_sell_all_button": [
+          498,
+          683
+        ],
+        "fishing_confirm_sell_all_button": [
+          547,
+          542
+        ]
+      }
+    },
+    {
+      "mac": "16in_MacBook_Pro",
+      "resolution": "1728x1117",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          31,
+          456
+        ],
+        "exit_collections_button": [
+          343,
+          153
+        ],
+        "chat_hover_pos": [
+          203,
+          282
+        ],
+        "chat_tab_ocr_pos": [
+          68,
+          91,
+          88,
+          29
+        ],
+        "chat_close_button": [
+          126,
+          61
+        ],
+        "chat_box_ocr_pos": [
+          1,
+          141,
+          430,
+          252
+        ],
+        "quest_menu": [
+          31,
+          618
+        ],
+        "quest1_button": [
+          1116,
+          531
+        ],
+        "quest2_button": [
+          805,
+          633
+        ],
+        "quest3_button": [
+          1175,
+          668
+        ],
+        "claim_quest_button": [
+          554,
+          789
+        ],
+        "quest_reroll_button": [
+          552,
+          592
+        ],
+        "merchant_open_button": [
+          600,
+          938
+        ],
+        "merchant_dialogue_box": [
+          720,
+          845
+        ],
+        "purchase_amount_button": [
+          1000,
+          618
+        ],
+        "purchase_button": [
+          1025,
+          668
+        ],
+        "first_item_merchant_slot_pos": [
+          816,
+          741
+        ],
+        "merchant_close_button": [
+          1631,
+          348
+        ],
+        "merchant_name_ocr_pos": [
+          667,
+          687,
+          317,
+          51
+        ],
+        "item_name_ocr_pos": [
+          995,
+          373,
+          577,
+          32
+        ],
+        "glitched_menu_button": [
+          25,
+          685
+        ],
+        "glitched_settings_button": [
+          859,
+          598
+        ],
+        "glitched_buff_enable_button": [
+          842,
+          656
+        ],
+        "aura_menu": [
+          28,
+          404
+        ],
+        "aura_search_bar": [
+          1102,
+          365
+        ],
+        "first_aura_slot_pos": [
+          736,
+          440
+        ],
+        "equip_aura_button": [
+          563,
+          645
+        ],
+        "inventory_menu": [
+          33,
+          518
+        ],
+        "items_tab": [
+          1155,
+          341
+        ],
+        "search_bar": [
+          1180,
+          368
+        ],
+        "first_item_inventory_slot_pos": [
+          752,
+          473
+        ],
+        "amount_box": [
+          536,
+          582
+        ],
+        "use_button": [
+          616,
+          590
+        ],
+        "inventory_close_button": [
+          1271,
+          299
+        ],
+        "reconnect_start_button": [
+          112,
+          997
+        ],
+        "first_item_slot_ocr_pos": [
+          725,
+          436,
+          82,
+          93
+        ],
+        "potion_items_tab": [
+          1425,
+          238
+        ],
+        "potion_search_bar": [
+          1570,
+          277
+        ],
+        "potion_first_potion_slot_pos": [
+          1477,
+          358
+        ],
+        "potion_recipe_button": [
+          187,
+          818
+        ],
+        "potion_auto_add_button": [
+          369,
+          815
+        ],
+        "fishing_bar_region": [
+          680,
+          752,
+          369,
+          28
+        ],
+        "fishing_detect_pixel": [
+          1057,
+          829
+        ],
+        "fishing_click_position": [
+          760,
+          827
+        ],
+        "fishing_midbar_sample_pos": [
+          853,
+          759
+        ],
+        "fishing_close_button_pos": [
+          997,
+          345
+        ],
+        "fishing_flarg_dialogue_box": [
+          843,
+          807
+        ],
+        "fishing_shop_open_button": [
+          615,
+          936
+        ],
+        "fishing_shop_sell_tab": [
+          1143,
+          325
+        ],
+        "fishing_shop_close_button": [
+          1315,
+          281
+        ],
+        "fishing_shop_first_fish": [
+          747,
+          429
+        ],
+        "fishing_shop_sell_all_button": [
+          586,
+          798
+        ],
+        "fishing_confirm_sell_all_button": [
+          643,
+          633
+        ]
+      }
+    },
+    {
+      "mac": "13.6in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          34,
+          394
+        ],
+        "exit_collections_button": [
+          296,
+          146
+        ],
+        "chat_hover_pos": [
+          203,
+          234
+        ],
+        "chat_tab_ocr_pos": [
+          70,
+          99,
+          102,
+          36
+        ],
+        "chat_close_button": [
+          130,
+          62
+        ],
+        "chat_box_ocr_pos": [
+          11,
+          143,
+          399,
+          220
+        ],
+        "quest_menu": [
+          27,
+          537
+        ],
+        "quest1_button": [
+          798,
+          452
+        ],
+        "quest2_button": [
+          813,
+          528
+        ],
+        "quest3_button": [
+          871,
+          583
+        ],
+        "claim_quest_button": [
+          473,
+          665
+        ],
+        "quest_reroll_button": [
+          471,
+          473
+        ],
+        "merchant_open_button": [
+          482,
+          792
+        ],
+        "merchant_dialogue_box": [
+          853,
+          705
+        ],
+        "purchase_amount_button": [
+          843,
+          526
+        ],
+        "purchase_button": [
+          897,
+          564
+        ],
+        "first_item_merchant_slot_pos": [
+          730,
+          616
+        ],
+        "merchant_close_button": [
+          1383,
+          291
+        ],
+        "merchant_name_ocr_pos": [
+          573,
+          575,
+          137,
+          53
+        ],
+        "item_name_ocr_pos": [
+          838,
+          308,
+          298,
+          41
+        ],
+        "glitched_menu_button": [
+          27,
+          586
+        ],
+        "glitched_settings_button": [
+          733,
+          497
+        ],
+        "glitched_buff_enable_button": [
+          714,
+          561
+        ],
+        "aura_menu": [
+          29,
+          342
+        ],
+        "aura_search_bar": [
+          632,
+          311
+        ],
+        "first_aura_slot_pos": [
+          628,
+          376
+        ],
+        "equip_aura_button": [
+          477,
+          548
+        ],
+        "inventory_menu": [
+          30,
+          438
+        ],
+        "items_tab": [
+          971,
+          284
+        ],
+        "search_bar": [
+          664,
+          312
+        ],
+        "first_item_inventory_slot_pos": [
+          645,
+          410
+        ],
+        "amount_box": [
+          456,
+          500
+        ],
+        "use_button": [
+          521,
+          497
+        ],
+        "inventory_close_button": [
+          1082,
+          251
+        ],
+        "reconnect_start_button": [
+          210,
+          839
+        ],
+        "first_item_slot_ocr_pos": [
+          612,
+          363,
+          73,
+          87
+        ],
+        "potion_items_tab": [
+          1181,
+          206
+        ],
+        "potion_search_bar": [
+          1163,
+          243
+        ],
+        "potion_first_potion_slot_pos": [
+          1268,
+          306
+        ],
+        "potion_recipe_button": [
+          139,
+          693
+        ],
+        "potion_auto_add_button": [
+          311,
+          694
+        ],
+        "fishing_bar_region": [
+          560,
+          620,
+          351,
+          33
+        ],
+        "fishing_detect_pixel": [
+          920,
+          702
+        ],
+        "fishing_click_position": [
+          608,
+          699
+        ],
+        "fishing_midbar_sample_pos": [
+          727,
+          630
+        ],
+        "fishing_close_button_pos": [
+          862,
+          269
+        ],
+        "fishing_flarg_dialogue_box": [
+          904,
+          666
+        ],
+        "fishing_shop_open_button": [
+          510,
+          795
+        ],
+        "fishing_shop_sell_tab": [
+          1000,
+          279
+        ],
+        "fishing_shop_close_button": [
+          1119,
+          242
+        ],
+        "fishing_shop_first_fish": [
+          631,
+          359
+        ],
+        "fishing_shop_sell_all_button": [
+          514,
+          678
+        ],
+        "fishing_confirm_sell_all_button": [
+          601,
+          540
+        ]
+      },
+      "scale": "125%"
+    },
+    {
+      "mac": "14in_MacBook_Pro",
+      "resolution": "1512x982",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          35,
+          405
+        ],
+        "exit_collections_button": [
+          305,
+          150
+        ],
+        "chat_hover_pos": [
+          209,
+          240
+        ],
+        "chat_tab_ocr_pos": [
+          72,
+          102,
+          105,
+          37
+        ],
+        "chat_close_button": [
+          134,
+          64
+        ],
+        "chat_box_ocr_pos": [
+          12,
+          146,
+          410,
+          226
+        ],
+        "quest_menu": [
+          28,
+          552
+        ],
+        "quest1_button": [
+          821,
+          465
+        ],
+        "quest2_button": [
+          836,
+          542
+        ],
+        "quest3_button": [
+          896,
+          599
+        ],
+        "claim_quest_button": [
+          487,
+          683
+        ],
+        "quest_reroll_button": [
+          484,
+          486
+        ],
+        "merchant_open_button": [
+          495,
+          814
+        ],
+        "merchant_dialogue_box": [
+          877,
+          724
+        ],
+        "purchase_amount_button": [
+          867,
+          540
+        ],
+        "purchase_button": [
+          923,
+          579
+        ],
+        "first_item_merchant_slot_pos": [
+          751,
+          633
+        ],
+        "merchant_close_button": [
+          1423,
+          299
+        ],
+        "merchant_name_ocr_pos": [
+          590,
+          591,
+          141,
+          55
+        ],
+        "item_name_ocr_pos": [
+          862,
+          316,
+          306,
+          42
+        ],
+        "glitched_menu_button": [
+          28,
+          602
+        ],
+        "glitched_settings_button": [
+          754,
+          510
+        ],
+        "glitched_buff_enable_button": [
+          734,
+          576
+        ],
+        "aura_menu": [
+          30,
+          351
+        ],
+        "aura_search_bar": [
+          650,
+          319
+        ],
+        "first_aura_slot_pos": [
+          646,
+          386
+        ],
+        "equip_aura_button": [
+          491,
+          563
+        ],
+        "inventory_menu": [
+          31,
+          450
+        ],
+        "items_tab": [
+          999,
+          292
+        ],
+        "search_bar": [
+          683,
+          321
+        ],
+        "first_item_inventory_slot_pos": [
+          663,
+          421
+        ],
+        "amount_box": [
+          469,
+          514
+        ],
+        "use_button": [
+          536,
+          510
+        ],
+        "inventory_close_button": [
+          1113,
+          257
+        ],
+        "reconnect_start_button": [
+          216,
+          862
+        ],
+        "first_item_slot_ocr_pos": [
+          629,
+          373,
+          75,
+          89
+        ],
+        "potion_items_tab": [
+          1214,
+          212
+        ],
+        "potion_search_bar": [
+          1196,
+          250
+        ],
+        "potion_first_potion_slot_pos": [
+          1304,
+          315
+        ],
+        "potion_recipe_button": [
+          143,
+          712
+        ],
+        "potion_auto_add_button": [
+          320,
+          713
+        ],
+        "fishing_bar_region": [
+          576,
+          636,
+          361,
+          34
+        ],
+        "fishing_detect_pixel": [
+          946,
+          721
+        ],
+        "fishing_click_position": [
+          625,
+          718
+        ],
+        "fishing_midbar_sample_pos": [
+          747,
+          647
+        ],
+        "fishing_close_button_pos": [
+          887,
+          276
+        ],
+        "fishing_flarg_dialogue_box": [
+          930,
+          684
+        ],
+        "fishing_shop_open_button": [
+          524,
+          817
+        ],
+        "fishing_shop_sell_tab": [
+          1028,
+          286
+        ],
+        "fishing_shop_close_button": [
+          1151,
+          248
+        ],
+        "fishing_shop_first_fish": [
+          649,
+          369
+        ],
+        "fishing_shop_sell_all_button": [
+          528,
+          696
+        ],
+        "fishing_confirm_sell_all_button": [
+          618,
+          555
+        ]
+      },
+      "scale": "125%"
+    },
+    {
+      "mac": "15in_MacBook_Air",
+      "resolution": "1470x956",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          34,
+          394
+        ],
+        "exit_collections_button": [
+          296,
+          146
+        ],
+        "chat_hover_pos": [
+          203,
+          234
+        ],
+        "chat_tab_ocr_pos": [
+          70,
+          99,
+          102,
+          36
+        ],
+        "chat_close_button": [
+          130,
+          62
+        ],
+        "chat_box_ocr_pos": [
+          11,
+          143,
+          399,
+          220
+        ],
+        "quest_menu": [
+          27,
+          537
+        ],
+        "quest1_button": [
+          798,
+          452
+        ],
+        "quest2_button": [
+          813,
+          528
+        ],
+        "quest3_button": [
+          871,
+          583
+        ],
+        "claim_quest_button": [
+          473,
+          665
+        ],
+        "quest_reroll_button": [
+          471,
+          473
+        ],
+        "merchant_open_button": [
+          482,
+          792
+        ],
+        "merchant_dialogue_box": [
+          853,
+          705
+        ],
+        "purchase_amount_button": [
+          843,
+          526
+        ],
+        "purchase_button": [
+          897,
+          564
+        ],
+        "first_item_merchant_slot_pos": [
+          730,
+          616
+        ],
+        "merchant_close_button": [
+          1383,
+          291
+        ],
+        "merchant_name_ocr_pos": [
+          573,
+          575,
+          137,
+          53
+        ],
+        "item_name_ocr_pos": [
+          838,
+          308,
+          298,
+          41
+        ],
+        "glitched_menu_button": [
+          27,
+          586
+        ],
+        "glitched_settings_button": [
+          733,
+          497
+        ],
+        "glitched_buff_enable_button": [
+          714,
+          561
+        ],
+        "aura_menu": [
+          29,
+          342
+        ],
+        "aura_search_bar": [
+          632,
+          311
+        ],
+        "first_aura_slot_pos": [
+          628,
+          376
+        ],
+        "equip_aura_button": [
+          477,
+          548
+        ],
+        "inventory_menu": [
+          30,
+          438
+        ],
+        "items_tab": [
+          971,
+          284
+        ],
+        "search_bar": [
+          664,
+          312
+        ],
+        "first_item_inventory_slot_pos": [
+          645,
+          410
+        ],
+        "amount_box": [
+          456,
+          500
+        ],
+        "use_button": [
+          521,
+          497
+        ],
+        "inventory_close_button": [
+          1082,
+          251
+        ],
+        "reconnect_start_button": [
+          210,
+          839
+        ],
+        "first_item_slot_ocr_pos": [
+          612,
+          363,
+          73,
+          87
+        ],
+        "potion_items_tab": [
+          1181,
+          206
+        ],
+        "potion_search_bar": [
+          1163,
+          243
+        ],
+        "potion_first_potion_slot_pos": [
+          1268,
+          306
+        ],
+        "potion_recipe_button": [
+          139,
+          693
+        ],
+        "potion_auto_add_button": [
+          311,
+          694
+        ],
+        "fishing_bar_region": [
+          560,
+          620,
+          351,
+          33
+        ],
+        "fishing_detect_pixel": [
+          920,
+          702
+        ],
+        "fishing_click_position": [
+          608,
+          699
+        ],
+        "fishing_midbar_sample_pos": [
+          727,
+          630
+        ],
+        "fishing_close_button_pos": [
+          862,
+          269
+        ],
+        "fishing_flarg_dialogue_box": [
+          904,
+          666
+        ],
+        "fishing_shop_open_button": [
+          510,
+          795
+        ],
+        "fishing_shop_sell_tab": [
+          1000,
+          279
+        ],
+        "fishing_shop_close_button": [
+          1119,
+          242
+        ],
+        "fishing_shop_first_fish": [
+          631,
+          359
+        ],
+        "fishing_shop_sell_all_button": [
+          514,
+          678
+        ],
+        "fishing_confirm_sell_all_button": [
+          601,
+          540
+        ]
+      },
+      "scale": "125%"
+    },
+    {
+      "mac": "16in_MacBook_Pro",
+      "resolution": "1728x1117",
+      "mode": "Windowed",
+      "calibrations": {
+        "collections_button": [
+          40,
+          460
+        ],
+        "exit_collections_button": [
+          348,
+          171
+        ],
+        "chat_hover_pos": [
+          239,
+          273
+        ],
+        "chat_tab_ocr_pos": [
+          83,
+          116,
+          120,
+          42
+        ],
+        "chat_close_button": [
+          153,
+          72
+        ],
+        "chat_box_ocr_pos": [
+          13,
+          167,
+          469,
+          258
+        ],
+        "quest_menu": [
+          31,
+          628
+        ],
+        "quest1_button": [
+          938,
+          529
+        ],
+        "quest2_button": [
+          956,
+          616
+        ],
+        "quest3_button": [
+          1024,
+          682
+        ],
+        "claim_quest_button": [
+          556,
+          777
+        ],
+        "quest_reroll_button": [
+          553,
+          552
+        ],
+        "merchant_open_button": [
+          566,
+          926
+        ],
+        "merchant_dialogue_box": [
+          1003,
+          823
+        ],
+        "purchase_amount_button": [
+          991,
+          614
+        ],
+        "purchase_button": [
+          1055,
+          659
+        ],
+        "first_item_merchant_slot_pos": [
+          859,
+          720
+        ],
+        "merchant_close_button": [
+          1626,
+          340
+        ],
+        "merchant_name_ocr_pos": [
+          674,
+          672,
+          161,
+          62
+        ],
+        "item_name_ocr_pos": [
+          985,
+          360,
+          350,
+          48
+        ],
+        "glitched_menu_button": [
+          31,
+          685
+        ],
+        "glitched_settings_button": [
+          862,
+          580
+        ],
+        "glitched_buff_enable_button": [
+          839,
+          656
+        ],
+        "aura_menu": [
+          34,
+          399
+        ],
+        "aura_search_bar": [
+          743,
+          363
+        ],
+        "first_aura_slot_pos": [
+          738,
+          440
+        ],
+        "equip_aura_button": [
+          561,
+          640
+        ],
+        "inventory_menu": [
+          35,
+          512
+        ],
+        "items_tab": [
+          1141,
+          332
+        ],
+        "search_bar": [
+          780,
+          365
+        ],
+        "first_item_inventory_slot_pos": [
+          758,
+          479
+        ],
+        "amount_box": [
+          536,
+          584
+        ],
+        "use_button": [
+          613,
+          580
+        ],
+        "inventory_close_button": [
+          1272,
+          293
+        ],
+        "reconnect_start_button": [
+          247,
+          980
+        ],
+        "first_item_slot_ocr_pos": [
+          719,
+          424,
+          85,
+          101
+        ],
+        "potion_items_tab": [
+          1388,
+          241
+        ],
+        "potion_search_bar": [
+          1367,
+          284
+        ],
+        "potion_first_potion_slot_pos": [
+          1490,
+          358
+        ],
+        "potion_recipe_button": [
+          163,
+          810
+        ],
+        "potion_auto_add_button": [
+          365,
+          811
+        ],
+        "fishing_bar_region": [
+          658,
+          724,
+          413,
+          38
+        ],
+        "fishing_detect_pixel": [
+          1081,
+          820
+        ],
+        "fishing_click_position": [
+          715,
+          817
+        ],
+        "fishing_midbar_sample_pos": [
+          854,
+          736
+        ],
+        "fishing_close_button_pos": [
+          1013,
+          314
+        ],
+        "fishing_flarg_dialogue_box": [
+          1063,
+          778
+        ],
+        "fishing_shop_open_button": [
+          599,
+          929
+        ],
+        "fishing_shop_sell_tab": [
+          1175,
+          326
+        ],
+        "fishing_shop_close_button": [
+          1316,
+          282
+        ],
+        "fishing_shop_first_fish": [
+          742,
+          420
+        ],
+        "fishing_shop_sell_all_button": [
+          604,
+          792
+        ],
+        "fishing_confirm_sell_all_button": [
+          706,
+          631
+        ]
+      },
+      "scale": "125%"
+    }
+  ]
 }
