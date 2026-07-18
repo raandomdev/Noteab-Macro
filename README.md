@@ -1,4 +1,13 @@
 # Coteab Macro notice.
+<p align="center">
+  <a href="https://github.com/raandomdev/Noteab-Macro/releases/latest">
+    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro?color=d774d5&label=Latest%20Release" />
+  </a>
+  <a href="https://github.com/raandomdev/Noteab-Macro/releases">
+    <img src="https://img.shields.io/github/downloads/raandomdev/Noteab-Macro/total?color=d774d5&label=Downloads" />
+  </a>
+</p>
+
 ## I. Introduction
 1) New developer??!?
 - Hi everyone. I am Vapure, aka "criticize." or "C". I work with Akito and a few others to maintain this macro. If you have any inquires, feel free to contact us on discord, or by email `work.vapure@gmail.com`.
