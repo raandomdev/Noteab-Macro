@@ -75,11 +75,27 @@ install_python_if_missing() {
     echo "No Python installation found. Downloading Python 3.12..."
     PKG_DEST="$DOWNLOAD_DIR/python-3.12.13-macos11.pkg"
     curl -fL --progress-bar -o "$PKG_DEST" "$PYTHON_PKG_URL"
-    echo "Installing Python 3.12 (this needs your admin password)..."
-    sudo installer -pkg "$PKG_DEST" -target /
+    echo "Downloaded installer to: $PKG_DEST"
+
+    echo "Opening the Python installer. Please complete the install wizard (you'll be asked for your admin password)."
+    open "$PKG_DEST"
 
     PYTHON_BIN_DIR="/Library/Frameworks/Python.framework/Versions/3.12/bin"
-    export PATH="$PYTHON_BIN_DIR:$PATH"
+
+    while true; do
+        read -r -p "Press Enter once the Python installer has finished (or type 'skip' to abort): " REPLY_INPUT
+        if [[ "$REPLY_INPUT" == "skip" ]]; then
+            echo "Aborting: Python is required for the rest of this script." >&2
+            exit 1
+        fi
+
+        export PATH="$PYTHON_BIN_DIR:$PATH"
+        if command -v python3 >/dev/null 2>&1; then
+            break
+        fi
+
+        echo "python3 still isn't on PATH — if the installer is still open, finish it and press Enter again."
+    done
 
     PYTHON_PATH_LINE="export PATH=\"$PYTHON_BIN_DIR:\$PATH\""
     if ! grep -Fq "$PYTHON_PATH_LINE" "$PROFILE_FILE" 2>/dev/null; then
@@ -90,7 +106,7 @@ install_python_if_missing() {
         } >> "$PROFILE_FILE"
     fi
 
-    echo "Python 3.12 installed and added to PATH: $(python3 --version 2>/dev/null || echo 'restart terminal to confirm')"
+    echo "Python 3.12 installed and confirmed on PATH: $(python3 --version)"
 }
 
 warn_if_placeholder_url() {
@@ -105,13 +121,13 @@ warn_if_placeholder_url() {
 ARCH="$(uname -m)"
 mkdir -p "$DOWNLOAD_DIR"
 
+install_python_if_missing
+
 case "$ARCH" in
     arm64)
         echo "Detected Apple Silicon (arm64)."
 
-        install_python_if_missing
-
-        echo "Downloading MacteabMacro.dmg..."
+        echo "Downloading MacteabMacro.zip..."
         warn_if_placeholder_url "$INTEL_ZIP_URL" "PLACEHOLDER"
         DEST="$DOWNLOAD_DIR/MacteabMacro.zip"
         curl -fL --progress-bar -o "$DEST" "$INTEL_ZIP_URL"
@@ -119,8 +135,6 @@ case "$ARCH" in
         ;;
     x86_64)
         echo "Detected Intel (x86_64)."
-
-        install_python_if_missing
 
         echo "Downloading MacteabMacro.zip..."
         warn_if_placeholder_url "$INTEL_ZIP_URL" "MacteabMacro.zip"
