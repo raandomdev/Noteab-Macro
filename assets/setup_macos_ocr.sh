@@ -4,6 +4,7 @@ INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix3/M
 ARM_DMG_URL="https://github.com/raandomdev/Noteab-Macro/releases/download/v2.1.7-hotfix2/MacteabMacro.dmg"
 DOWNLOAD_DIR="$HOME/Downloads"
 PYTHON_PKG_URL="https://www.python.org/ftp/python/3.12.13/python-3.12.13-macos11.pkg"
+VENV_DIR="$HOME/.macteab-macro/venv"
 
 if [[ "$(uname -s)" != "Darwin" ]]; then
     echo "This script is intended for macOS only." >&2
@@ -31,9 +32,6 @@ fi
 
 brew update
 brew install --formula tesseract
-
-python3 -m pip install --upgrade pip setuptools wheel
-python3 -m pip install --upgrade pytesseract
 
 PROFILE_FILE="$HOME/.zprofile"
 if [[ ! -f "$PROFILE_FILE" ]]; then
@@ -109,6 +107,29 @@ install_python_if_missing() {
     echo "Python 3.12 installed and confirmed on PATH: $(python3 --version)"
 }
 
+create_venv() {
+    echo "Creating an isolated virtual environment at: $VENV_DIR"
+    mkdir -p "$(dirname "$VENV_DIR")"
+    python3 -m venv "$VENV_DIR"
+
+    VENV_PIP="$VENV_DIR/bin/pip"
+    VENV_PYTHON="$VENV_DIR/bin/python3"
+
+    "$VENV_PIP" install --upgrade pip setuptools wheel
+    "$VENV_PIP" install --upgrade pytesseract
+
+    VENV_ACTIVATE_LINE="# Run: source \"$VENV_DIR/bin/activate\"  (to use MacteabMacro's Python env)"
+    if ! grep -Fq "$VENV_DIR/bin/activate" "$PROFILE_FILE" 2>/dev/null; then
+        {
+            echo
+            echo "# Added by setup_macos_ocr.sh (MacteabMacro venv)"
+            echo "$VENV_ACTIVATE_LINE"
+        } >> "$PROFILE_FILE"
+    fi
+
+    echo "Virtual environment ready. Python packages will install here instead of the system/Homebrew Python."
+}
+
 warn_if_placeholder_url() {
     local url="$1"
     local marker="$2"
@@ -122,6 +143,7 @@ ARCH="$(uname -m)"
 mkdir -p "$DOWNLOAD_DIR"
 
 install_python_if_missing
+create_venv
 
 case "$ARCH" in
     arm64)
@@ -148,9 +170,9 @@ case "$ARCH" in
         ;;
 esac
 
-echo "Installing required Python packages..."
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade \
+echo "Installing required Python packages into the venv..."
+"$VENV_DIR/bin/pip" install --upgrade pip
+"$VENV_DIR/bin/pip" install --upgrade \
     numpy \
     opencv-python-headless \
     Pillow \
@@ -166,5 +188,7 @@ python3 -m pip install --upgrade \
     pynput \
     pyinstaller
 
-echo "Python packages installed."
-echo "Setup complete. Restart your terminal or run: source ~/.zprofile"
+echo "Python packages installed into: $VENV_DIR"
+echo "Setup complete. Restart your terminal, or run:"
+echo "  source ~/.zprofile"
+echo "  source \"$VENV_DIR/bin/activate\"    # to use this project's Python env"
