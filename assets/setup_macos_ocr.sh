@@ -1,6 +1,6 @@
 set -euo pipefail
 
-INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix4/MacteabMacro.zip"
+INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix3/MacteabMacro.zip"
 ARM_DMG_URL="https://github.com/raandomdev/Noteab-Macro/releases/download/v2.1.7-hotfix2/MacteabMacro.dmg"
 DOWNLOAD_DIR="$HOME/Downloads"
 PYTHON_PKG_URL="https://www.python.org/ftp/python/3.12.13/python-3.12.13-macos11.pkg"
@@ -16,7 +16,11 @@ if ! command -v curl >/dev/null 2>&1; then
     exit 1
 fi
 
-if ! command -v brew >/dev/null 2>&1; then
+BREW_ALREADY_INSTALLED=false
+if command -v brew >/dev/null 2>&1; then
+    BREW_ALREADY_INSTALLED=true
+    echo "Homebrew already installed ($(brew --version | head -n 1)), skipping installation."
+else
     echo "Installing Homebrew..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
@@ -30,7 +34,9 @@ else
     exit 1
 fi
 
-brew update
+if [[ "$BREW_ALREADY_INSTALLED" == false ]]; then
+    brew update
+fi
 brew install --formula tesseract
 
 PROFILE_FILE="$HOME/.zprofile"
