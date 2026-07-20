@@ -1,6 +1,6 @@
 set -euo pipefail
 
-INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix3/MacteabMacro.zip"
+INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix4/MacteabMacro.zip"
 ARM_DMG_URL="https://github.com/raandomdev/Noteab-Macro/releases/download/v2.1.7-hotfix2/MacteabMacro.dmg"
 DOWNLOAD_DIR="$HOME/Downloads"
 PYTHON_PKG_URL="https://www.python.org/ftp/python/3.12.13/python-3.12.13-macos11.pkg"
