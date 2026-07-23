@@ -1,16 +1,73 @@
-# Coteab Macro notice.
+# Coteab Macro
+## A **Sol's RNG** macro — simple, efficient, and macOS supported.
+
 <p align="center">
-  <a href="https://github.com/raandomdev/Noteab-Macro/releases/latest">
-    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro?color=d774d5&label=Latest%20Release" />
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/releases/latest">
+    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro-Mac?color=d774d5&label=Latest%20Release" />
   </a>
-  <a href="https://github.com/raandomdev/Noteab-Macro/releases">
-    <img src="https://img.shields.io/github/downloads/raandomdev/Noteab-Macro/total?color=d774d5&label=Downloads" />
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/releases">
+    <img src="https://img.shields.io/github/downloads/raandomdev/Noteab-Macro-Mac/total?color=d774d5&label=Downloads" />
   </a>
 </p>
 
+---
+
+> [!CAUTION]
+> These are the **official links** for Radiance Macro.  
+> Any other websites, downloads, or reuploads claiming to be Radiance are **fake**.
+>
+> - 🔗 Latest release: https://github.com/raandomdev/Noteab-Macro-Mac/releases/latest  
+
+---
+
+> [!IMPORTANT]
+> - You are using this software **at your own risk**.  
+> - We are **not responsible** for bans or account actions.  
+> - ❌ No external apps are required.  
+>   - If someone claims otherwise → **report them immediately**.
+
+---
+
+> [!WARNING]
+> - This project is protected under the **Apache 2.0 License**.  
+> - If you use our code:
+>   - ✅ You **must provide credit**  
+>   - ✅ You **must include the license**
+>
+> Failure to comply may result in:
+> - DMCA takedowns  
+> - Legal action  
+
+---
+
+> [!NOTE]
+> - Versions **below v2.0.3 do NOT work**.  
+> - Always use the **latest version** to ensure:
+>   - Compatibility with current Sol's RNG updates  
+>   - Bug fixes & improvements  
+
+---
+
+<p align="center">
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/stargazers">
+    <img src="https://img.shields.io/github/stars/raandomdev/Noteab-Macro-Mac?style=for-the-badge&color=2d2d2d&labelColor=1a1a1a&logoColor=66ccff" />
+  </a>
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/network/members">
+    <img src="https://img.shields.io/github/forks/raandomdev/Noteab-Macro-Mac?style=for-the-badge&color=2d2d2d&labelColor=1a1a1a&logoColor=66ccff" />
+  </a>
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/raandomdev/Noteab-Macro-Mac?style=for-the-badge&color=2d2d2d&labelColor=1a1a1a&logoColor=66ccff" />
+  </a>
+  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/releases/latest">
+    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro-Mac?style=for-the-badge&color=2d2d2d&labelColor=1a1a1a&logoColor=66ccff" />
+  </a>
+  <a href="https://discord.gg/uJNvXVryvD">
+    <img src="https://img.shields.io/badge/Discord-Join%20Server-2d2d2d?style=for-the-badge&logo=discord&logoColor=66ccff&labelColor=1a1a1a" />
+  </a>
+
 ## I. Introduction
 1) New developer??!?
-- Hi everyone. I am Vapure, aka "criticize." or "C". I work with Akito and a few others to maintain this macro. If you have any inquires, feel free to contact us on discord, or by email `work.vapure@gmail.com`.
+- Hi everyone, Im Spacedev, i work with xVapure, and others, my main focus is macteab but i aslo help out on the windows version of coteab
 - You might have seen me somewhere inside other Sol's RNG related servers.
 2) The project.
 - This project is a fork of the original [Noteab's Biome Macro](https://github.com/NotWindyZ/Noteab-Macro/).
