@@ -62,5 +62,9 @@
     "SINGULARITY": { 
         "color": "0xcf4023",
         "thumbnail_url": "https://raw.githubusercontent.com/xVapure/Noteab-Macro/refs/heads/main/images/SINGULARITY.png"
+    },
+    "BLAZING SUN": {
+        "color": "0xffb300",
+        "thumbnail_url": "https://raw.githubusercontent.com/vexsyx/OysterDetector/refs/heads/main/assets/blazing%20sun.png"
     }
 }
