@@ -1,7 +1,7 @@
 set -euo pipefail
 
-INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix3/MacteabMacro.zip"
-ARM_DMG_URL="https://github.com/raandomdev/Noteab-Macro/releases/download/v2.1.7-hotfix2/MacteabMacro.dmg"
+INTEL_ZIP_URL="https://github.com/raandomdev/Noteab-Macro/releases/tag/hotfix3/MacteabMacro-intel.zip"
+ARM_DMG_URL="https://github.com/raandomdev/Noteab-Macro/releases/download/v2.1.7-hotfix2/MacteabMacro.zip"
 DOWNLOAD_DIR="$HOME/Downloads"
 PYTHON_PKG_URL="https://www.python.org/ftp/python/3.12.13/python-3.12.13-macos11.pkg"
 VENV_DIR="$HOME/.macteab-macro/venv"
@@ -156,9 +156,9 @@ case "$ARCH" in
         echo "Detected Apple Silicon (arm64)."
 
         echo "Downloading MacteabMacro.zip..."
-        warn_if_placeholder_url "$INTEL_ZIP_URL" "PLACEHOLDER"
+        warn_if_placeholder_url "$ARM_DMG_URL" "PLACEHOLDER"
         DEST="$DOWNLOAD_DIR/MacteabMacro.zip"
-        curl -fL --progress-bar -o "$DEST" "$INTEL_ZIP_URL"
+        curl -fL --progress-bar -o "$DEST" "$ARM_DMG_URL"
         echo "Downloaded to: $DEST"
         ;;
     x86_64)
