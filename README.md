@@ -2,11 +2,11 @@
 ## A **Sol's RNG** macro — simple, efficient, and macOS supported.
 
 <p align="center">
-  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/releases/latest">
-    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro-Mac?color=d774d5&label=Latest%20Release" />
+  <a href="https://github.com/raandomdev/Noteab-Macro/releases/latest">
+    <img src="https://img.shields.io/github/v/release/raandomdev/Noteab-Macro?color=d774d5&label=Latest%20Release" />
   </a>
-  <a href="https://github.com/raandomdev/Noteab-Macro-Mac/releases">
-    <img src="https://img.shields.io/github/downloads/raandomdev/Noteab-Macro-Mac/total?color=d774d5&label=Downloads" />
+  <a href="https://github.com/raandomdev/Noteab-Macro/releases">
+    <img src="https://img.shields.io/github/downloads/raandomdev/Noteab-Macro/total?color=d774d5&label=Downloads" />
   </a>
 </p>
 
